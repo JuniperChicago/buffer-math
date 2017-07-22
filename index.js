@@ -5,6 +5,7 @@ const isOne = require('./lib/isOne')
 const isZero = require('./lib/isZero')
 const msBPos = require('./lib/msBPos')
 const trimAfter = require('./lib/trimAfter')
+const trimBefore = require('./lib/trimBefore')
 
 module.exports = {
   compare,
@@ -13,5 +14,6 @@ module.exports = {
   isOne,
   isZero,
   msBPos,
-  trimAfter
+  trimAfter,
+  trimBefore
 }
