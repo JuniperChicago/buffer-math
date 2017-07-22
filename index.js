@@ -5,6 +5,7 @@ const isOdd = require('./lib/isOdd')
 const isOne = require('./lib/isOne')
 const isZero = require('./lib/isZero')
 const msBPos = require('./lib/msBPos')
+const random = require('./lib/random')
 const swapEndianness = require('./lib/swapEndianness')
 const swapEndiannessInPlace = require('./lib/swapEndiannessInPlace')
 const trimAfter = require('./lib/trimAfter')
@@ -18,6 +19,7 @@ module.exports = {
   isOne,
   isZero,
   msBPos,
+  random,
   swapEndianness,
   swapEndiannessInPlace,
   trimAfter,
