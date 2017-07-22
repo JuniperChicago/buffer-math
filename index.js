@@ -1,3 +1,4 @@
+const bitLength = require('./lib/bitLength')
 const compare = require('./lib/compare')
 const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
@@ -10,6 +11,7 @@ const trimAfter = require('./lib/trimAfter')
 const trimBefore = require('./lib/trimBefore')
 
 module.exports = {
+  bitLength,
   compare,
   isEven,
   isOdd,
