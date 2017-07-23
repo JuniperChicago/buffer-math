@@ -15,3 +15,19 @@ Install with npm:
 ```
 npm install --save buffer-math
 ```
+
+## Usage
+
+Include the functions you need like:
+
+```js
+const {
+  isZero,
+  multiply,
+  ...
+} = require('buffer-math')
+```
+
+## Contributing
+
+Anyone can help make this project better. Please provide tests and documentation for new features.
