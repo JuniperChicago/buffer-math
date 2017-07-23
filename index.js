@@ -1,6 +1,8 @@
+const add = require('./lib/add')
 const and = require('./lib/and')
 const bitLength = require('./lib/bitLength')
 const compare = require('./lib/compare')
+const increment = require('./lib/increment')
 const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
 const isOne = require('./lib/isOne')
@@ -18,9 +20,11 @@ const trimBefore = require('./lib/trimBefore')
 const xor = require('./lib/xor')
 
 module.exports = {
+  add,
   and,
   bitLength,
   compare,
+  increment,
   isEven,
   isOdd,
   isOne,
