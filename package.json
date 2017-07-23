@@ -1,6 +1,6 @@
 {
   "name": "buffer-math",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Provides some math functions for numbers represented in buffers as little endian.",
   "main": "index.js",
   "scripts": {
