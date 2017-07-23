@@ -3,12 +3,16 @@ const and = require('./lib/and')
 const bitLength = require('./lib/bitLength')
 const compare = require('./lib/compare')
 const decrement = require('./lib/decrement')
+const divide = require('./lib/divide')
+const divideAndRemainder = require('./lib/divideAndRemainder')
 const increment = require('./lib/increment')
 const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
 const isOne = require('./lib/isOne')
 const isZero = require('./lib/isZero')
+const modulo = require('./lib/modulo')
 const msBPos = require('./lib/msBPos')
+const multiply = require('./lib/multiply')
 const not = require('./lib/not')
 const or = require('./lib/or')
 const random = require('./lib/random')
@@ -27,12 +31,16 @@ module.exports = {
   bitLength,
   compare,
   decrement,
+  divide,
+  divideAndRemainder,
   increment,
   isEven,
   isOdd,
   isOne,
   isZero,
+  modulo,
   msBPos,
+  multiply,
   not,
   or,
   random,
