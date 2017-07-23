@@ -2,6 +2,7 @@ const add = require('./lib/add')
 const and = require('./lib/and')
 const bitLength = require('./lib/bitLength')
 const compare = require('./lib/compare')
+const decrement = require('./lib/decrement')
 const increment = require('./lib/increment')
 const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
@@ -13,6 +14,7 @@ const or = require('./lib/or')
 const random = require('./lib/random')
 const shiftLeft = require('./lib/shiftLeft')
 const shiftRight = require('./lib/shiftRight')
+const subtract = require('./lib/subtract')
 const swapEndianness = require('./lib/swapEndianness')
 const swapEndiannessInPlace = require('./lib/swapEndiannessInPlace')
 const trimAfter = require('./lib/trimAfter')
@@ -24,6 +26,7 @@ module.exports = {
   and,
   bitLength,
   compare,
+  decrement,
   increment,
   isEven,
   isOdd,
@@ -35,6 +38,7 @@ module.exports = {
   random,
   shiftLeft,
   shiftRight,
+  subtract,
   swapEndianness,
   swapEndiannessInPlace,
   trimAfter,
