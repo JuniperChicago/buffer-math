@@ -5,6 +5,7 @@ const compare = require('./lib/compare')
 const decrement = require('./lib/decrement')
 const divide = require('./lib/divide')
 const divideAndRemainder = require('./lib/divideAndRemainder')
+const getBit = require('./lib/getBit')
 const increment = require('./lib/increment')
 const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
@@ -33,6 +34,7 @@ module.exports = {
   decrement,
   divide,
   divideAndRemainder,
+  getBit,
   increment,
   isEven,
   isOdd,
