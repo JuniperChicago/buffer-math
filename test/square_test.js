@@ -1,0 +1,14 @@
+const expect = require('chai').expect
+const Buffer = require('buffer').Buffer
+const square = require('../lib/square')
+
+const ZERO = Buffer.from([0])
+const ONE = Buffer.from([1])
+const BIG_NUM_1 = Buffer.from([0x8F, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x15])
+
+it('square', function () {
+  expect(square(ZERO)).to.deep.equal(ZERO)
+  expect(square(ONE)).to.deep.equal(ONE)
+  expect(square([0x02, 0x02])).to.deep.equal(Buffer.from([0x04, 0x08, 0x04]))
+  expect(square(BIG_NUM_1)).to.deep.equal(Buffer.from([0xE1, 0x31, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x94, 0xEC, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xE3, 0x01]))
+})

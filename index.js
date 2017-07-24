@@ -21,6 +21,7 @@ const random = require('./lib/random')
 const shiftLeft = require('./lib/shiftLeft')
 const shiftRight = require('./lib/shiftRight')
 const subtract = require('./lib/subtract')
+const square = require('./lib/square')
 const swapEndianness = require('./lib/swapEndianness')
 const swapEndiannessInPlace = require('./lib/swapEndiannessInPlace')
 const trimAfter = require('./lib/trimAfter')
@@ -51,6 +52,7 @@ module.exports = {
   shiftLeft,
   shiftRight,
   subtract,
+  square,
   swapEndianness,
   swapEndiannessInPlace,
   trimAfter,
