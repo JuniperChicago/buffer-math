@@ -11,6 +11,7 @@ const isEven = require('./lib/isEven')
 const isOdd = require('./lib/isOdd')
 const isOne = require('./lib/isOne')
 const isZero = require('./lib/isZero')
+const modPow = require('./lib/modPow')
 const modulo = require('./lib/modulo')
 const msBPos = require('./lib/msBPos')
 const multiply = require('./lib/multiply')
@@ -40,6 +41,7 @@ module.exports = {
   isOdd,
   isOne,
   isZero,
+  modPow,
   modulo,
   msBPos,
   multiply,
